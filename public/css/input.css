@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  position: relative;
+}
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.md-20 {
+  font-size: 20px;
+}
+
+.shortcut:hover .btn-more {
+  opacity: 1;
+  transition-delay: 0.4s;
+}
+
+.search-input:focus {
+  border-bottom: 0px;
+  @apply rounded-t-3xl rounded-b-none;
+}
+
+.search-input:focus ~ .search-list {
+  display: block;
+}
+
+.apps-button:focus ~ .apps-list-wrapper {
+  display: block;
+}
+
+.apps-list-wrapper {
+  max-width: 85vw;
+}
+
+.apps-list {
+  height: 440px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+.apps-list::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 20px 0;
+}
+
+.apps-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.apps-list::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: rgba(31, 31, 31, 0.16);
+  border: 1px solid transparent;
+  @apply rounded-lg;
+}
+
+.apps-item:hover .truncate {
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+}

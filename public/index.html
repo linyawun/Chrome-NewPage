@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>新分頁</title>
+  </head>
+  <body class="relative">
+    <header class="p-3 mb-8">
+      <nav class="flex justify-end items-center space-x-4 text-sm">
+        <a href="#" class="hover:underline">Gmail</a>
+        <a href="#" class="hover:underline">圖片</a>
+        <button
+          class="flex items-center p-2 hover:bg-gray-100 focus:bg-gray-300 rounded-full apps-button"
+        >
+          <span class="material-symbols-outlined text-gray-500"> apps </span>
+        </button>
+        <div
+          class="absolute top-14 mt-2 rounded-3xl shadow-lg shadow-gray-300 ps-2 py-2 bg-[#e9eef6] text-center w-[370px] z-10 hidden apps-list-wrapper"
+        >
+          <div class="apps-list">
+            <ul
+              class="grid-cols-3 grid gap-x-2 gap-y-3 rounded-t-2xl rounded-b-md bg-gray-50 p-6 mb-1"
+            >
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="#"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://lh3.googleusercontent.com/a/ACg8ocJPN9psSxRqLEmfEQih46ttSLUvJSekZK7bcEDrMMMj=s128-b16-cc-rp-mo')] bg-[length:53px] bg-no-repeat bg-center"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">帳戶</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://mail.google.com/mail/u/0/#inbox"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-2436px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Gmail</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://drive.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-116px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">雲端硬碟</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://docs.google.com/document/?usp=docs_ald&authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-2088px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Google 文件</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://docs.google.com/spreadsheets/?usp=sheets_ald&authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-2146px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Google 試算表</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://docs.google.com/presentation/?usp=slides_ald&authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_0px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Google 簡報</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://calendar.google.com/calendar?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1276px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate leading-[18px] w-[76px]">日曆</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://chat.google.com?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-580px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Chat</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://meet.google.com?hs=197&authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-348px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate leading-[18px] w-[76px]">Meet</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://docs.google.com/forms/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-232px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Google 表單</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://sites.google.com?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-464px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">協作平台</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://contacts.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-start justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1624px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">聯絡人</p>
+                </a>
+              </li>
+            </ul>
+
+            <ul
+              class="grid-cols-3 grid gap-x-2 gap-y-3 rounded-md bg-gray-50 p-6 mb-1"
+            >
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://groups.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-2320px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">網路論壇</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://www.youtube.com?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-2378px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Youtube</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://maps.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1044px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">地圖</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://news.google.com?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1334px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">新聞</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://ads.google.com/home/?subid=ww-ww-xs-ip-awhc-a-ogb_dash!o2&authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1218px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-full">Google Ads</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://photos.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-870px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">相片</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://translate.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1682px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">翻譯</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://vault.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1740px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Google 保管箱</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://keep.google.com?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1102px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Keep</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://jamboard.google.com/?authuser=0"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-2030px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Jamboard</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://cloudsearch.google.com/cloudsearch/"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-928px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Cloud Search</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://earth.google.com/web/"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1566px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">地球</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://www.google.com/save"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-1972px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">已儲存</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://www.google.com/travel/"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-754px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">旅遊</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://passwords.google.com/intro"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/gb/images/sprites/p_1x_7725e9c78408.png')] bg-[length:53px_2547px] bg-[0_-58px] bg-no-repeat"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">密碼管理工具</p>
+                </a>
+              </li>
+            </ul>
+
+            <ul
+              class="grid-cols-3 grid gap-x-2 gap-y-3 rounded-b-2xl rounded-t-md bg-gray-50 p-6 mb-6"
+            >
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://classroom.google.com/"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/classroom/ic_product_classroom_96.png')] bg-no-repeat bg-center bg-[length:40px_40px]"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Classroom</p>
+                </a>
+              </li>
+              <li class="h-[84px] flex items-start">
+                <a
+                  href="https://www.google.com/cloudprint/"
+                  class="w-[84px] p-1 hover:bg-[#e9eef6] rounded-xl apps-item"
+                >
+                  <div class="flex items-center justify-center">
+                    <div
+                      class="w-[52px] h-[52px] bg-[url('https://ssl.gstatic.com/images/branding/product/1x/cloud_print_48dp.png')] bg-no-repeat bg-center bg-[length:40px_40px]"
+                    ></div>
+                  </div>
+                  <p class="text-sm truncate w-[76px]">Cloud Print</p>
+                </a>
+              </li>
+            </ul>
+            <button
+              class="rounded-full py-2 px-8 w-3/4 text-blue-600 hover:bg-blue-300/[.15] transition-all duration-500 hover:transition-all hover:duration-500 border border-gray-600 mb-6"
+            >
+              更多 Google Workspace Marketplace 應用程式
+            </button>
+          </div>
+        </div>
+        <button class="hover:bg-gray-100 p-0.5 rounded-lg">
+          <img
+            src="https://lh3.googleusercontent.com/ogw/AKPQZvz6v0oHt4vMSeGskSnbdewt-4_ZvlY5RqZh5dig=s64-c-mo"
+            alt="avatar"
+            class="w-8 rounded-full"
+          />
+        </button>
+      </nav>
+    </header>
+    <main class="flex items-center justify-center p-8 md:p-16 sm:p-12">
+      <div class="container max-w-screen-sm w-11/12 md:w-5/6 xl:w-5/12">
+        <div class="text-center mb-8">
+          <img
+            src="./asstes/google_logo.svg"
+            alt="google"
+            class="inline max-w-[70%] sm:max-w-full"
+          />
+        </div>
+        <form action="#" class="flex items-center relative mx-auto mb-5">
+          <span
+            class="material-symbols-outlined md-20 text-gray-500 hidden sm:block sm:absolute left-4"
+          >
+            search
+          </span>
+          <input
+            type="text"
+            class="flex-grow w-full ps-3 pe-20 sm:px-12 py-3 placeholder:text-gray-500 rounded-full shadow-md border focus:outline-none search-input"
+            placeholder="搜尋 Google 或輸入網址"
+          />
+          <div
+            class="rounded-b-3xl shadow-md border-x border-b bg-white absolute top-full w-full z-20 pb-4 hidden search-list"
+          >
+            <ul>
+              <li>
+                <a
+                  href="#"
+                  class="flex items-center hover:bg-gray-100 py-2 px-4"
+                >
+                  <span
+                    class="material-symbols-outlined md-20 text-gray-500 mr-4"
+                  >
+                    schedule
+                  </span>
+                  <span> tailwindcss </span>
+                  <button
+                    class="ml-auto hover:bg-gray-300 rounded-full p-1 w-6 h-6 leading-none flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined md-20 text-gray-500">
+                      close
+                    </span>
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex items-center hover:bg-gray-100 py-2 px-4"
+                >
+                  <span
+                    class="material-symbols-outlined md-20 text-gray-500 mr-4"
+                  >
+                    schedule
+                  </span>
+                  <span> google material icon </span>
+                  <button
+                    class="ml-auto hover:bg-gray-300 rounded-full p-1 w-6 h-6 leading-none flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined md-20 text-gray-500">
+                      close
+                    </span>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="absolute flex space-x-4 right-4">
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  fill="#4285F4"
+                  d="M12 15c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v7c0 1.66 1.34 3 3 3z"
+                />
+                <path fill="#34A853" d="M11 18.92h2V22h-2z" />
+                <path
+                  fill="#F4B400"
+                  d="M7 12H5c0 1.93.78 3.68 2.05 4.95l1.41-1.41C7.56 14.63 7 13.38 7 12z"
+                />
+                <path
+                  fill="#EA4335"
+                  d="M12 17c-1.38 0-2.63-.56-3.54-1.47l-1.41 1.41A6.99 6.99 0 0 0 12.01 19c3.87 0 6.98-3.14 6.98-7h-2c0 2.76-2.23 5-4.99 5z"
+                />
+              </svg>
+            </button>
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 192 192"
+                width="24"
+                height="24"
+              >
+                <circle cx="144.07" cy="144" r="16" fill="#34A853" />
+                <circle cx="96.07" cy="104" r="24" fill="#4285F4" />
+                <path
+                  fill="#EA4335"
+                  d="M24 135.2c0 18.11 14.69 32.8 32.8 32.8H96v-16l-40.1-.1c-8.8 0-15.9-8.19-15.9-17.9v-18H24v19.2z"
+                />
+                <path
+                  fill="#FBBC04"
+                  d="M168 72.8c0-18.11-14.69-32.8-32.8-32.8H116l20 16c8.8 0 16 8.29 16 18v30h16V72.8z"
+                />
+                <path
+                  fill="#4285F4"
+                  d="M112 24H80L68 40H56.8C38.69 40 24 54.69 24 72.8V92h16V74c0-9.71 7.2-18 16-18h80l-24-32z"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+
+        <ul class="flex flex-wrap gap-0 justify-center w-full sm:w-5/6 mx-auto">
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="https://juejin.cn/"
+              title="掘金"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <div
+                  class="w-6 h-6 bg-[url('https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg')] bg-contain bg-no-repeat bg-center"
+                ></div>
+              </div>
+              <p class="text-sm truncate w-full">掘金</p>
+              <button
+                class="hover:bg-gray-300 rounded-full w-7 h-7 leading-none absolute right-1 top-1 opacity-0 transition-opacity btn-more"
+              >
+                <span class="material-symbols-outlined md-20 text-gray-500">
+                  more_vert
+                </span>
+              </button>
+            </a>
+          </li>
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="https://www.awwwards.com/"
+              title="Awwwards - Website Awards - Best Web Design Trends"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <div
+                  class="w-6 h-6 bg-[url('https://assets.awwwards.com/assets/images/favicon-safari.svg')] bg-contain bg-no-repeat bg-center"
+                ></div>
+              </div>
+              <p class="text-sm truncate w-full">
+                Awwwards - Website Awards - Best Web Design Trends
+              </p>
+              <button
+                class="hover:bg-gray-300 rounded-full w-7 h-7 leading-none absolute right-1 top-1 opacity-0 transition-opacity btn-more"
+              >
+                <span class="material-symbols-outlined md-20 text-gray-500">
+                  more_vert
+                </span>
+              </button>
+            </a>
+          </li>
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="https://responsive-jp.com/"
+              title="Responsive Web Design JP | 日本国内の秀逸なレスポンシブWebデザインを集めたギャラリーサイト"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <div
+                  class="w-6 h-6 bg-[url('https://responsive-jp.com/wp-content/themes/rwdjp/images/favicon.ico')] bg-contain bg-no-repeat bg-center"
+                ></div>
+              </div>
+              <p class="text-sm truncate w-full">
+                Responsive Web Design JP |
+                日本国内の秀逸なレスポンシブWebデザインを集めたギャラリーサイト
+              </p>
+              <button
+                class="hover:bg-gray-300 rounded-full w-7 h-7 leading-none absolute right-1 top-1 opacity-0 transition-opacity btn-more"
+              >
+                <span class="material-symbols-outlined md-20 text-gray-500">
+                  more_vert
+                </span>
+              </button>
+            </a>
+          </li>
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="https://responsive-jp.com/"
+              title="Responsive Web Design JP | 日本国内の秀逸なレスポンシブWebデザインを集めたギャラリーサイト"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <div
+                  class="w-6 h-6 bg-[url('https://responsive-jp.com/wp-content/themes/rwdjp/images/favicon.ico')] bg-contain bg-no-repeat bg-center"
+                ></div>
+              </div>
+              <p class="text-sm truncate w-full">
+                Responsive Web Design JP |
+                日本国内の秀逸なレスポンシブWebデザインを集めたギャラリーサイト
+              </p>
+              <button
+                class="hover:bg-gray-300 rounded-full w-7 h-7 leading-none absolute right-1 top-1 opacity-0 transition-opacity btn-more"
+              >
+                <span class="material-symbols-outlined md-20 text-gray-500">
+                  more_vert
+                </span>
+              </button>
+            </a>
+          </li>
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="https://www.cssdesignawards.com/"
+              title="CSS Design Awards"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <div
+                  class="w-6 h-6 bg-[url('https://www.cssdesignawards.com/images/favicons/apple-touch-icon-57x57.png')] bg-contain bg-no-repeat bg-center"
+                ></div>
+              </div>
+              <p class="text-sm truncate w-full">CSS Design Awards</p>
+              <button
+                class="hover:bg-gray-300 rounded-full w-7 h-7 leading-none absolute right-1 top-1 opacity-0 transition-opacity btn-more"
+              >
+                <span class="material-symbols-outlined md-20 text-gray-500">
+                  more_vert
+                </span>
+              </button>
+            </a>
+          </li>
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="https://dribbble.com/"
+              title="Dribble"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <div
+                  class="w-6 h-6 bg-[url('https://cdn.dribbble.com/assets/favicon-7069643deb57b4d88a84ec7cf30ea81561641d491fd6396b28c84f861f2aa32d.svg')] bg-contain bg-no-repeat bg-center"
+                ></div>
+              </div>
+              <p class="text-sm truncate w-full">Dribble</p>
+              <button
+                class="hover:bg-gray-300 rounded-full w-7 h-7 leading-none absolute right-1 top-1 opacity-0 transition-opacity btn-more"
+              >
+                <span class="material-symbols-outlined md-20 text-gray-500">
+                  more_vert
+                </span>
+              </button>
+            </a>
+          </li>
+          <li class="w-1/3 sm:w-1/4 max-w-[115px]">
+            <a
+              href="#"
+              title="新增捷徑"
+              class="flex flex-col items-center rounded p-4 hover:bg-gray-200 relative text-center shortcut"
+            >
+              <div
+                class="bg-gray-100 p-3 rounded-full flex items-center justify-center mb-3"
+              >
+                <span class="material-symbols-outlined"> add </span>
+              </div>
+              <p class="text-sm truncate w-full">新增捷徑</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="fixed right-3 bottom-4">
+      <button
+        title="自訂這個頁面"
+        class="flex items-center space-x-2 rounded-full shadow shadow-gray-400 px-2 py-1 sm:px-4 text-sm text-blue-500 hover:bg-blue-50"
+      >
+        <span class="material-symbols-outlined fill text-base"> edit </span>
+        <span class="hidden sm:block">自訂 Chrome</span>
+      </button>
+    </footer>
+  </body>
+</html>
