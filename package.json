@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css dev": "npx tailwindcss -i public/css/input.css -o public/css/output.css --watch",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "start": "serve public/"
   },
   "author": "",
   "license": "ISC",
